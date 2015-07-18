@@ -1,0 +1,48 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family:'Source Sans Pro',sans-serif;
+}
+header, nav, section, div, span, footer, hgroup, article{
+  display: block;
+}
+.site{
+  display: block;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.site-header{
+  padding: 2%;
+  text-align: center;
+}
+.site-header h1{
+  font-size: 5em;
+}
+.site-nav{
+  text-align: center;
+  border-bottom: 2px solid Black;
+}
+.site-nav li{
+  padding: 1%;
+  display: inline-block;
+  list-style: none;
+  font-size: 3em;
+}
+.site-nav a{
+  color: Gray;
+  text-decoration: none;
+}
+.site-nav a:hover{
+  color: DarkGray;
+}
+.site-footer{
+  padding: 2%;
+  border-top: 2px solid Black;
+}
+.site-footer a{
+  color: Teal;
+  text-decoration: none;
+}
+.site-footer a:hover{
+  color: Turquoise;
+}
